@@ -1,0 +1,13 @@
+syntax = "proto3";
+import "google/protobuf/struct.proto";
+
+service SampleMessagingService {
+  rpc SendEmail (EmailMessage) returns (Void);
+}
+
+message Void {}
+
+message EmailMessage {
+  string email = 1;
+  google.protobuf.Struct parameters = 2;
+}

@@ -1,2 +1,2 @@
 # grpc-dynamic-json-example
-Just a flexible JSON communication sample with gRPC and node
+This code was used to explain how to serialize dynamic JSON using gRPC on node.
